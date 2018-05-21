@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# Jekyll Foundation
 
-You can use the [editor on GitHub](https://github.com/themattdobson/themattdobson.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[![Build Status](https://travis-ci.org/Foundation-for-Jekyll-sites/jekyll-foundation.svg)](https://travis-ci.org/Foundation-for-Jekyll-sites/jekyll-foundation)
+[![devDependencies](https://david-dm.org/Foundation-for-Jekyll-sites/jekyll-foundation/dev-status.svg)](https://david-dm.org/Foundation-for-Jekyll-sites/jekyll-foundation#info=devDependencies)
+[![Join the chat at https://gitter.im/core77/jekyll-foundation](https://badges.gitter.im/core77/jekyll-foundation.svg)](https://gitter.im/core77/jekyll-foundation?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Quickstart your Jekyll (v3) project with Zurb Foundation for Sites (v6, sass).
 
-### Markdown
+This package is meant to build your Site on your local machine.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+It provides a [Gulp.js](http://gulpjs.com/) workflow with
 
-```markdown
-Syntax highlighted code block
+- Browsersync (live reload and synchronised browser testing)
+- Concatenation and minification of CSS and JavaScript files
+- Asset management is done by Bower (and Composer if you need serverside libraries)  
+- Deployment with rsync
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/themattdobson/themattdobson.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Getting started](https://github.com/Foundation-for-Jekyll-sites/jekyll-foundation/wiki/Getting-started)

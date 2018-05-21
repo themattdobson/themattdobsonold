@@ -1,0 +1,16 @@
+// --------------------------------------------------
+// Layout index page
+// --------------------------------------------------
+
+main {
+  @include grid-row;
+
+  //other elements
+  //@include grid-column;
+}
+
+
+.aboutblock {padding: 15px;}
+
+
+.outlinebutton {margin-top: 4em;}
