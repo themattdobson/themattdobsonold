@@ -1,50 +1,41 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-language:               ""
-title:                  "Matt Dobson"
-description:            "Matt Dobson - Product Designer"
-google-verification:    ""
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Matt Dobson
+email: matt@mattdobson.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Matt Dobson - Human-centered product designer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mattdobson.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: themattdobson
+linkedin_username: matt-dobson-0b68a94
 
-# Handling Reading
-include:
-  - ".htaccess"
-  - "_pages"
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
 
-exclude:
-  - "/assets/"
-  - "bower.json"
-  - "composer.json"
-  - "composer.lock"
-  - "DOC.md"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "/gulp/"
-  - "gulpfile.js"
-  - "LICENSE.md"
-  - "Makefile"
-  - "node_modules"
-  - "npm-debug.log"
-  - "package.json"
-  - "README.md"
-  - "rev-manifest.json"
-  - "yarn.lock"
-
-# Plugins
-# Add plugins in the Gemfile
-
-# Conversion
-incremental:      true
-
-# Serving
-# url:            ""
-# baseurl:        "" # does not include hostname
-
-# Outputting
-permalink:        "/writing/:year/:title/"
-paginate_path:    "/writing/page:num"
-paginate:         5
-
-compress_html:
-  ignore:
-    envs: [development]
-
-highlighter:      rouge
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
